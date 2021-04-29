@@ -1,0 +1,55 @@
+Question 1:
+How long did you spend on the coding test? What would you add to your solution if you had more time? If you didn't spend much time on the coding test then use this as an opportunity to explain what you would add.
+Ans:
+It took me around a day to complete this assignment. While working on this assignment, I found 
+Bootstrap, JQuery and JScript very useful to make this template. I designed this template with ease.
+
+As I have good knowledge of SQL, it was easy for me to create the database. 
+As an add-on, I could have made this template responsive that could be used in any device. 
+
+
+Question 2:
+How would you track down a performance issue in production? Have you ever had to do this?
+Ans:
+
+I don't have any experience of working on such issues.
+But, as per my knowledge performance issues are mostly recognized in the live environment i.e., 
+Production by the end-users. The end-users play a vital role in providing the feedback and 
+making the application more user-friendly and efficient. 
+To track down the performance issues the tesitng is performed with large data volumes
+and in this case the feedback could be taken from the internal users i.e.,developers 
+who develop the application or website.
+
+After the feedback is received from the user it goes to respective development team as belows:
+1) Backend Team
+2) UI developer Team
+3) Server Admin Team
+
+
+Question 3:
+Please describe yourself using JSON.
+Ans:
+
+myInfo = 
+{	
+"first name": "Harshal",
+"last name": "Patil",
+"age": 23,
+"nationality": "Indian",
+"experience": "8 months",
+"address":[
+    {"A/P":"Bhuyewadi"},
+    {"tal":"Karveer"},
+    {"dist":"Kolhapur"}
+]
+
+"technical skills":[
+    HTML5, 
+    CSS, 
+    Bootstrap, 
+    Javascript,		 
+    Spring Boot, 
+    Wordpress
+    Frappe framework	
+]}
+
