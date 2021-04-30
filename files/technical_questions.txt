@@ -44,12 +44,12 @@ myInfo =
 ]
 
 "technical skills":[
-    HTML5, 
-    CSS, 
-    Bootstrap, 
-    Javascript,		 
-    Spring Boot, 
-    Wordpress
-    Frappe framework	
+    "HTML5", 
+    "CSS", 
+    "Bootstrap", 
+    "Javascript",		 
+    "JQuery",
+    "SQL",
+    "PL-SQL"
 ]}
 
