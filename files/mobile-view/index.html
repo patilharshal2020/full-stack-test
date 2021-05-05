@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>mobile-task</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500|Open+Sans" rel="stylesheet">
+
+
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        font-family: sans-serif;
+        background-color: #11324d;
+    }
+
+    .main-div {
+        text-align: center;
+        padding: 30px;
+    }
+
+    .head {
+        font-size: 28px;
+        font-family: 'Titillium Web', sans-serif;
+        color: #ffffff;
+
+    }
+
+
+
+    p {
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        color: #ffffff;
+        opacity: 0.8;
+        padding: 5px;
+
+    }
+
+
+
+    .bgImg1 {
+        opacity: 0.4;
+        z-index: -1;
+
+    }
+
+    .sec-div {
+        max-width: 600px;
+        display: block;
+        margin: 100px auto;
+    }
+
+    .sec-div .section {
+        float: left;
+        width: 100%;
+    }
+
+    .sec-div .section .section-header h4 {
+        cursor: pointer;
+        color: #000000;
+        position: relative;
+        background-color: #ffffff;
+        margin: 0;
+        padding: 15px 0px;
+        border-radius: 5px;
+
+    }
+
+    .sec-div .section .section-header {
+        position: relative;
+    }
+
+
+
+    .sec-div .section .section-body {
+        padding: 0;
+        background-color: #64b4c8;
+        display: none;
+    }
+
+
+
+    .sec-div .section:nth-child(1) .section-body {
+        display: block;
+        background-color: #64b4c8;
+
+    }
+
+    .sec-div .section .section-body p {
+        font-size: 15px;
+        line-height: 24px;
+        color: #444444;
+        margin: 0px;
+    }
+</style>
+
+<body>
+
+    <div class="main-div">
+
+        <h2 class="head"> DelphianLogic in Action </h2>
+        <p style="font-size: 14px; font-family: 'Open Sans', sans-serif;color: #ffffff;opacity: 0.8;padding: 5px;">
+            Lorem ipsum dolor sit amet, cosctetuer asipiscing elit. Aenean commodo</p>
+
+        <div class="sec-div">
+            <div class="section">
+                <div class="section-header">
+                    <h3 class="mb-0 text-justify"
+                        style="background-color: #ffffff;  padding: 15px; border-radius: 5px; font-size: 20px;">
+                        <img src="img/DL-learning.svg"
+                            style="height:40px;width:40px; margin-right: 20px;margin-left: 20px;">Learning
+                        <img src="img/plus-01.svg" id="toggleBtn1" style="float: right; margin: 10px; " alt="">
+
+
+                    </h3>
+
+
+                </div>
+
+                <div style=" display: none;" id="secBody1" class="section-body">
+                    <img src="img/DL-Learning-1.jpg" class="bgImg1 img-responsive" width="100%" alt="">
+
+                    <small style="background-color:grey;color:#ffffff;padding:3px;"> DIGITAL LEARNING INFRASTRUCTURE
+                    </small>
+                    <br><br>
+                    <h4 style="color:#ffffff">
+                        This text shows learning section.
+                    </h4>
+                    <a href="#" style="color:#ffffff;text-decoration:none;">
+                        Learn More <img src="img/arrow-right.svg">
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-header">
+                    <h3 class="mb-0 text-justify"
+                        style="background-color: #ffffff; padding: 15px; border-radius: 5px; font-size: 20px;">
+                        <img src="img/DL-technology.svg"
+                            style="height:40px;width:40px; margin-right: 20px;margin-left: 20px;">Technology
+                        <img src="img/plus-01.svg" id="toggleBtn2" style="float: right; margin: 10px;" alt="">
+                    </h3>
+
+                </div>
+                <div style="display: none;" id="secBody2" class="section-body">
+                    <img src="img/DL-Technology.jpg" class="bgImg1 img-responsive" width="100%" alt="">
+
+                    <small style="background-color:grey;color:white;padding:3px;"> DIGITAL TECHNOLOGY INFRASTRUCTURE
+                    </small>
+                    <br><br>
+                    <h4 style="color:#ffffff">
+                        This text shows Technology section.
+                    </h4>
+                    <a href="#" style="color:#ffffff;text-decoration:none;">
+                        Learn More <img src="img/arrow-right.svg">
+                    </a>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-header">
+                    <h3 class="mb-0 text-justify"
+                        style="background-color: #ffffff; padding: 15px; border-radius: 5px; font-size: 20px;">
+                        <img src="img/DL-communication.svg"
+                            style="height:40px;width:40px; margin-right: 20px;margin-left: 20px;">Communication
+                        <img src="img/plus-01.svg" id="toggleBtn3" style="float: right; margin: 10px;" alt="">
+                    </h3>
+
+                </div>
+                <div style="display: none;" id="secBody3" class="section-body">
+                    <img src="img/DL-Communication.jpg" class="bgImg1 img-responsive" width="100%" alt="">
+
+                    <small style="background-color:grey;color:white;padding:3px;"> DIGITAL COMMUNICATION
+                        INFRASTRUCTURE </small>
+                    <br><br>
+                    <h4 style="color:#ffffff">
+                        This text shows Communication section.
+                    </h4>
+                    <a href="#" style="color:#ffffff;text-decoration:none;">
+                        Learn More <img src="img/arrow-right.svg">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div style="margin:800px;">
+
+    </div>
+
+    <!-- jqurey -->
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+            $("#toggleBtn1").click(
+                function () {
+                    $("#secBody1").toggle(300);
+                }
+
+            )
+
+        });
+
+
+        $(document).ready(function () {
+            var flag = 0;
+            $("#toggleBtn1").click(function () {
+                if (flag == 0) {
+                    $(this).attr("src", "img/minus-01.svg");
+                    flag = 1;
+                }
+                else if (flag == 1) {
+                    $(this).attr("src", "img/plus-01.svg");
+                    flag = 0;
+                }
+            });
+        });
+
+        $(document).ready(function () {
+            $("#toggleBtn2").click(
+                function () {
+                    $("#secBody2").toggle(300);
+                }
+
+            )
+        });
+
+        $(document).ready(function () {
+            var flag = 0;
+            $("#toggleBtn2").click(function () {
+                if (flag == 0) {
+                    $(this).attr("src", "img/minus-01.svg");
+                    flag = 1;
+                }
+                else if (flag == 1) {
+                    $(this).attr("src", "img/plus-01.svg");
+                    flag = 0;
+                }
+            });
+        });
+
+
+
+        $(document).ready(function () {
+            $("#toggleBtn3").click(
+                function () {
+                    $("#secBody3").toggle(300);
+                }
+
+            )
+        });
+
+        $(document).ready(function () {
+            var flag = 0;
+            $("#toggleBtn3").click(function () {
+                if (flag == 0) {
+                    $(this).attr("src", "img/minus-01.svg");
+                    flag = 1;
+                }
+                else if (flag == 1) {
+                    $(this).attr("src", "img/plus-01.svg");
+                    flag = 0;
+                }
+            });
+        });
+
+
+
+
+
+
+
+    </script>
+
+
+</body>
+
+</html>
